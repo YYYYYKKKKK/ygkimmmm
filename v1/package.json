@@ -1,0 +1,42 @@
+{
+  "name": "wedding-invitation",
+  "version": "1.0.1",
+  "description": " Jungwoo Oh🤵 ❤ Yugyeong Kim👰 Wedding Invitation💌",
+  "main": "index.js",
+  "repository": "https://github.com/LeeKyuHyuk/wedding-invitation.git",
+  "author": "Yugyeong Kim ",
+  "license": "MIT",
+  "proxy":"http://t1.daumcdn.net/mapjsapi/js/main/4.4.12/kakao.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack serve --progress",
+    "build": "NODE_ENV=production webpack --progress"
+  },
+  "dependencies": {
+    "@types/react-copy-to-clipboard": "^5.0.1",
+    "@types/react-image-gallery": "^1.0.4",
+    "@types/styled-components": "^5.1.13",
+    "antd": "^4.16.13",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "^17.0.2",
+    "react-image-gallery": "^1.2.7",
+    "react-kakao-maps-sdk": "^1.1.11",
+    "styled-components": "^5.3.1",
+    "systemctl": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@types/webpack": "^5.28.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
